@@ -1,0 +1,21 @@
+{
+  "name": "meteor-collection",
+  "version": "0.0.1",
+  "description": "A command-line tool to create meteor collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-meteor-collection"
+  },
+  "bin": {
+    "meteor-collection": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "react"
+  ],
+  "author": "Sébastien Pinard",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

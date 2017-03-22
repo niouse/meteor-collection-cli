@@ -1,0 +1,9 @@
+function getSchemas(name){
+    
+    var schemas = `
+
+    `  
+    return schemas
+}
+
+module.exports = getSchemas
