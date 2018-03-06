@@ -2,18 +2,18 @@
 
 var fs = require("fs");
 var program = require('commander');
-var getCollection = require('./getCollection');
-var getDefaults = require('./getDefaults');
-var getPublications = require('./getPublications');
-var getPermissions = require('./getPermissions');
-var getFixitures = require('./getFixitures');
-var getMethods = require('./getMethods');
-var getSchemas = require('./getSchemas');
-var getIndex = require('./getIndex');
-var getDataService = require('./getDataService');
-var getOneDataService = require('./getOneDataService');
-var getListDataService = require('./getListDataService');
-var getCrudService = require('./getCrudService');
+var getCollection = require('./src/getCollection');
+var getDefaults = require('./src/getDefaults');
+var getPublications = require('./src/getPublications');
+var getPermissions = require('./src/getPermissions');
+var getFixitures = require('./src/getFixitures');
+var getMethods = require('./src/getMethods');
+var getSchemas = require('./src/getSchemas');
+var getIndex = require('./src/getIndex');
+var getDataService = require('./src/getDataService');
+var getOneDataService = require('./src/getOneDataService');
+var getListDataService = require('./src/getListDataService');
+var getCrudService = require('./src/getCrudService');
 
 createCollection = function(name){
     
